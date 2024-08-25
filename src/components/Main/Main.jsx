@@ -12,7 +12,7 @@ const Main = () => {
             <div className='main-container card'>
                 <p>Generate your own Conference Display Picture</p>
                 <form>
-                    <img src={assets.ikeji_dp} alt=""  className='card-img'/>
+                <img src={assets.ikeji_dp} alt=""  className='card-img'/>
                     <p>Create your entry below</p>
                     <label>
                        Your  Name:
