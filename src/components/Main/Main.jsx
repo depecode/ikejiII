@@ -69,11 +69,11 @@ const Main = () => {
                             <img
                                 src={image}
                                 alt="Selected"
-                                className='h-64 w-64 rounded-full ml-3.5 object-contain absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2'
+                                className='h-64 w-64 rounded-full ml-3.5 object-cover absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2'
                             />
                         )}
                         {name && (
-                            <p className='absolute bottom-[19rem] ml-4 left-1/2 -translate-x-1/2 font-bold text-lg'>{name}</p>
+                            <p className='absolute bottom-[19rem] ml-4 left-1/2 -translate-x-1/2 font-bold text-2xl'>{name}</p>
                         )}
                     </div>
                     <div className='py-4 flex flex-col gap-4'>
