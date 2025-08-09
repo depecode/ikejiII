@@ -1,5 +1,5 @@
-import ikeji_banner from './ikeji_banner.jpg'
-import ikeji_dp from './ikeji_dp.png'
+import ikeji_banner from './ikeji_banner.png'
+import ikeji_dp from './ikeji_dp.jpg'
 
 
 export const assets = {
